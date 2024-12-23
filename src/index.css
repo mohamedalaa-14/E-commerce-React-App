@@ -1,0 +1,48 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+/*Global Rules*/
+* {
+box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif !important;
+}
+.bg-color{
+    background-color: #EEEE !important; 
+}
+.f-cairo{
+    font-family: "Cairo", sans-serif !important;
+}
+.low-shadow {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.08);
+}
+.content-container{
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+}
+th{
+    background-color: rgb(55, 0, 55) !important;
+    color: white !important;
+
+}
+td{
+ padding: 15px 35px !important;
+}
+ 
+/* .container{
+    margin: 0 auto;
+}
+.h-100{
+    height: 100vh;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row .col-12{
+    width: 100%;
+}
+.row .col-6{
+    width: 50%;
+} */
