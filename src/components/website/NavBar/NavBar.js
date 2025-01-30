@@ -46,9 +46,9 @@ export default function NavBar() {
   const changeCount = (id, btnCount) => {
     const getProducts = JSON.parse(localStorage.getItem("product")) || [];
     const findProduct = getProducts.find((product) => product.id === id);
-    findProduct.count=btnCount;
+    findProduct.count = btnCount;
     localStorage.setItem("product", JSON.stringify(getProducts));
-  }
+  };
 
   const productsShow = products?.map((product, key) => (
     <div className="mb-4 position-relative" key={key}>
@@ -157,7 +157,7 @@ export default function NavBar() {
             </div>
           </div>
           <div className="mt-3">
-            <div className="d-flex align-items-center justify-content-center gap-5 flex-wrap">
+            <div className="d-flex align-items-center justify-content-center gap-3 gap-md-5 flex-wrap ">
               {loading ? (
                 <SkeletonShow
                   length="8"
