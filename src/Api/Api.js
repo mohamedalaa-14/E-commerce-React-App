@@ -1,4 +1,4 @@
-export const baseURL = `https://alaa-ecom.codey.site/api`;
+export const baseURL = `https://alaa-ecom.oncode.site/api`;
 //Auth
 export const REGISTER = "register";
 export const LOGIN = "login";
@@ -13,12 +13,12 @@ export const GOOGLE_CALL_BACK = "auth/google/callback";
 export const CAT = "categories";
 export const CATADD = "category";
 //Products
-export const PRO ="products";
-export const PRp ="product";
+export const PRO = "products";
+export const PRp = "product";
 export const LatestSale = "latest-sale";
 export const Latest = "latest";
 export const TOPRATED = "top-rated";
 
 //cart
 
-export const CART = "/cart"
+export const CART = "/cart";
